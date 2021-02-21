@@ -1,0 +1,28 @@
+.header {
+    display: block;
+}
+
+#header-img {
+    width: 200px;
+    height: 300px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(to bottom, #aaffa9, #11ffbd);
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+
+@media (min-width: 500px) {
+    h1 {
+        margin: 1%;
+    }
+    .estiloresponsive {
+        float: right;
+        padding-left: 15px;
+    }
+}
